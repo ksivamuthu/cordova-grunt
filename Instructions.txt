@@ -1,0 +1,17 @@
+Install node js and add node js and npm in the System PATH variable
+Instal Android SDK and add in your path
+
+Pre requistes:
+
+npm install -g cordova
+npm intsall -g ant
+npm install -g grunt
+
+Cordova Project Creation:
+
+cordova create <ProjectName> <AppID> <Project Location>
+
+cordova platform add android
+cordova platform add ios
+
+cordova build
